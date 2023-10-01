@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div>
+                <a href="./index.html">
+                    <h1> The Blog Types</h1>
+                </a>
+            </div>
+    
+            <div class = "my_post">
+                <ul class="nav_div">
+                    <li>
+                        <a href="">My Post</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Form #1 -->
+    <div class="blog_div">
+        <h2> Blog</h2>
+        <form action="" name="blog" method="POST">
+            <div class="Name">
+                <div>
+                    <label for="fName">First Name</label>
+                    <input type="text" id="fName" name="fName">
+                </div>
+    
+                <div>
+                    <label for="lName">Last Name</label>
+                    <input type="text" id="lName" name="lName">
+                </div>
+
+            </div>
+
+            <div class = 'label_div'>
+                <label for="blog">Your Post</label>
+            </div>
+            <div>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Form #2 -->
+    <div class="blog_div2">
+        <h2>Account Info</h2>
+        <form action="" class = "blog_div2_form">
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" id = "fname" name = "fname">
+            </div>
+
+            <div>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name = "lname">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name = "email">
+            </div>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+
+            <div class = "radio">
+                <div class="radio_items">
+                    <label for="male">Male:</label>
+                    <input type="radio" name="gender" id="male">
+                </div>
+                <div class="radio_items">
+                    <label for="female">Female:</label>
+                    <input type="radio" name="gender" id="female">
+                </div>
+                <div class="radio_items">
+                    <label for="others">Others:</label>
+                    <input type="radio" name="gender" id="others">
+                </div>
+            </div>
+            
+            <div>
+                <h2>Bio</h2>
+                <textarea name="bio" id="bio"></textarea>
+            </div>
+
+            <div class = "blog_div2_btn">
+                <button>Save</button>
+                <button>Clear</button>
+            </div>
+        </form>
+
+    </div>
+
+    <!-- Form 3 -->
+    <div class="reviews">
+        <h2>Your Ratings</h2>
+        <form action="">
+            <div class= 'box-style'>
+                <div>
+                    <div>
+                        <label for="name">Your Name:</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="Place">Place:</label>
+                        <input type="text" name="Place" id="Place">
+                    </div>
+                    <div>
+                        <label for="address">Address:</label>
+                        <input type="text" name="address" id="address">
+                    </div>
+                    <div>
+                        <label for="date">Date:</label>
+                        <input type="datetime" name="Date" id="Date">
+                    </div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+
+                <div>
+                    <h2>Reviews</h2>
+                    <textarea name="rev" id="rev" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <button>Confirm</button>
+
+        </form>
+    </div>
+    <!-- Form 4 -->
+    <div class = "login">
+        <form action="">
+            <h2>Login</h2>
+            <div class="login_items">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <div class="login_items">
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class= "login_a">
+                <a href="">Forgot password?</a>
+            </div>
+            <div class= "login_items">
+                <button class="login_btn">Login</button>
+            </div>
+
+            <P>Or Sign in Using</P>
+
+            <div class = "img_flex">
+                
+                <div class="images">
+                    <a href="">
+                        <img src="/images/Facebook_f_logo_(2021).svg.png" alt="">
+                    </a>
+                </div>
+
+                <div class="images">
+                    <a href="">
+                        <img src="/images/Logo_of_Twitter.svg.png" alt="">
+                    </a>
+                </div>
+
+                <div class="images">
+                    <a href="">
+                        <img src="/images/Google__G__Logo.svg.webp" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class = "sign_up">
+                <a href=""> Sign Up</a>
+            </div>
+        </form>
+    </div>
+    <!-- Form 5 -->
+
+    <div class = "create_acc">
+
+        <h1>Create Account</h1>
+
+        <form action="">
+            <div class = "acc_flex">
+
+                <div class = "acc_input">
+                    <div>
+                        <label for="username">Username</label>
+                    </div>    
+                    <input type="text" name="username" id="username">
+                    <div>
+                        <label for="">Password</label>
+                    </div>
+                    <input type="text" name="" id="">
+                    <div>
+                        <label for="">Confirm Password</label>
+                    </div>    
+                    <input type="text" name="" id="">
+                    <div>
+                        <button>Confirm</button>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="/images/collection-of-free-penguins-drawing-realistic-emperor-penguin-clip-art-11562996986xnekwzsajy.png" alt="">
+                </div>
+
+            </div>
+        
+        </form>
+    </div>
+</body>
+</html>

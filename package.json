@@ -1,0 +1,22 @@
+{
+  "name": "theblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jzheng-prog/TheBlog.git"
+  },
+  "author": "John Zheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jzheng-prog/TheBlog/issues"
+  },
+  "homepage": "https://github.com/Jzheng-prog/TheBlog#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
