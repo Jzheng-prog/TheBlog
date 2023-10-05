@@ -14,6 +14,16 @@ header{
     padding: 15px;
     background-color: rgb(129, 187, 238);
 }
+.publ-Blog{
+    text-align: center;
+    margin: 20px;
+}
+h2{
+    text-align: center;
+}
+.navbar a{
+    color: black;
+}
 
 .header{
     position: fixed;
@@ -27,9 +37,6 @@ header{
     justify-content: space-between;
     margin: auto 10px;
 }
-.my_post{
-    background-color: rgb(185, 185, 255);
-}
 .radio, .box-style input{
     display: flex;
 }
@@ -40,12 +47,20 @@ header{
 .radio_items input{
     margin: auto;
 }
-.nav_div{
-    display: flex;
-    justify-content: space-between;
-}
-.nav_div li{
+.blog_list{
+    background-color: rgb(167, 255, 251);
+    margin: 20px auto;
     padding: 10px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px;
+}
+.blog_list p{
+    padding: 10px;
+}
+.blog_list ul{
+    padding: 10px;
+    margin: 10px;
 }
 
 .blog_div{

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <%- include('includes/header') %>
+
+    <h1 class = "publ-Blog">Public Blog Post</h1>
+
+    <div>
+            <% for (const post of blogs) {%>
+                <div class = "blog_list">
+                    <ul>
+                        <li>
+                            <p> Author: <%= post.first_name +' ' + post.last_name%> </p>
+                            <h2> Blog</h2>
+                            <div class = 'box-style'>
+                                <p><%= post.blog_post %> </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            <% } %>
+    </div>
+</body>
+</html>

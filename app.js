@@ -14,7 +14,14 @@ app.get('/', function (req, res) {
     res.render('index');
 });
 
+app.get('/my-post', async function (req, res) {
+
+    const [blog] =  await db.query('SELECT * FROM blog_data');
+    res.render('my-post', {blogs: blog});
+});
+
 app.post('/', async function( req, res){
+    console.log('helooooooooow')
     const data = [
         req.body.first_name,
         req.body.last_name,
@@ -22,7 +29,7 @@ app.post('/', async function( req, res){
     ];
     await db.query('INSERT INTO blog_data(first_name, last_name, blog_post) VALUES(?)', [data]);
     
-    console.log(data)
+    console.log(data);
     res.redirect('/');
 
 });
